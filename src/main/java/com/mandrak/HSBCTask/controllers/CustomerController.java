@@ -21,7 +21,6 @@ public class CustomerController {
 
     @GetMapping()
     public ResponseEntity<Iterable<Customer>> getAll() {
-        //notificationService.sendNotification();
         return ResponseEntity.ok(customerService.getAll());
     }
 
