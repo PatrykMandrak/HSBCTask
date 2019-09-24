@@ -1,7 +1,10 @@
 package com.mandrak.HSBCTask.models;
 
+import lombok.Data;
+
 import javax.persistence.*;
 
+@Data
 @Entity
 public class Customer {
     @Id
@@ -13,7 +16,7 @@ public class Customer {
 
     private String address;
 
-    public Customer(String name, String address) {
+/*    public Customer(String name, String address) {
         this.name = name;
         this.address = address;
     }
@@ -44,5 +47,5 @@ public class Customer {
 
     public void setId(Long id) {
         this.id = id;
-    }
+    }*/
 }
