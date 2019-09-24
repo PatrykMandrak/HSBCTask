@@ -18,6 +18,10 @@ public class Customer {
         this.address = address;
     }
 
+    public Customer() {
+
+    }
+
     public String getName() {
         return name;
     }
